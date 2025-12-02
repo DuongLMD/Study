@@ -67,6 +67,20 @@ print (sum(2,3))
 #Đặt tên biến trùng với từ khoá hệ thống ( không nên làm ) ( cái này là vsc suggest not me)
 #Biến cục bộ dc dnghia trg 1 làm và chỉ dc truy cập bên trg hàm đó
 
+x = 2
+y = 3
+def sum():
+    return x + y
+print (sum())
+#Biến toàn cục dc định nghĩa bên ngoài hàm và có thể truy cập từ bất kỳ đâu trong mã.
+#là k cần khai báo vì ghi sẵn x vs y là gì r
+
+PI = 3.14  # Hằng số đại diện cho số Pi
+GRAVITY = 9.81  # Hằng số đại diện cho gia tốc trọng
+# Đặt tên biến cho hằng số ( không nên thay đổi giá trị của nó trong suốt chương trình)
+#để in hoa tên biến để biểu thị rằng nó là một hằng số.
+
+
 
 
 
